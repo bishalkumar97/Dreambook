@@ -1,6 +1,5 @@
 // Backend/services/syncBooksAndOrders.js
 const axios = require("axios");
-// const { default: SellingPartnerAPI } = require("amazon-sp-api");
 const SellingPartnerAPI = require("amazon-sp-api");
 
 const { Book } = require("../models/book.model");
