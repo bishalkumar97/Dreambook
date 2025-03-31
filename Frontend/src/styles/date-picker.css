@@ -1,0 +1,16 @@
+.rmdp-container {
+    width: 100% !important;
+}
+
+.rmdp-container>input {
+    padding: 8px 16px !important;
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    border: 2px solid #e5e7eb !important;
+}
+
+.rmdp-container>input:focus {
+    outline: none;
+    border: 2px solid #FB9400 !important;
+}

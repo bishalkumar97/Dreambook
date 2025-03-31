@@ -1,0 +1,51 @@
+/* 
+Add this file if you have following things in your project:-
+    1. If you have installed react-phone-input-2 library
+    2. If you want to customise the classes added by react-phone-input-2 libary
+    3. Add this file in global file. 
+    ** Note that: This file can not be use as Modular CSS because it will then not have any control over the classes.
+*/
+
+.react-tel-input .form-control {
+    width: 100% !important;
+    padding: 0 1rem 0 48px !important;
+    height: 43px !important;
+    border-radius: 8px !important;
+    border: 1px solid #0000000D !important;
+    background: #FFF !important;
+}
+
+.react-tel-input .flag-dropdown {
+    background-color: transparent !important;
+    border: 0px solid #DDD !important;
+    border-right: none !important;
+    border-radius: 8px 0 0 8px !important;
+}
+
+.react-tel-input .selected-flag {
+    width: 48px !important;
+    padding: 0 0 0 15px !important;
+}
+
+.react-tel-input .selected-flag .flag {
+    margin-top: -6px !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+    background-color: transparent !important;
+}
+
+.react-tel-input:focus-within {
+    border: 2px solid #228b22 !important;
+    border-radius: 8px;
+}
+
+.react-tel-input {
+    border: 1px solid #DDD !important;
+    border-radius: 8px;
+}
+
+.react-tel-input .form-control:focus {
+    border: 0px solid #808080 !important;
+}
